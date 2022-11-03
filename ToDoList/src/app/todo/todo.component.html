@@ -5,8 +5,9 @@
     <div class="card-body p-4">
         <div class="input-group">
             <input type="text" class="form-control" 
-            placeholder="Title goes here">
-            <button class="btn">
+            placeholder="Title goes here" #titleInput>
+            <button class="btn"
+            (click)="onClick(titleInput)">                
                 <i class="fa-solid fa-file-circle-plus fa-xl"></i>
             </button>
         </div>
